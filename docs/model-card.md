@@ -10,9 +10,10 @@ letterboxed. Output: `[1,30,6]` containing xyxy, confidence, and class.
 Embedded NMS uses IoU 0.5. Pipeline settings and class order are in
 `models/scoreboard/`. Template correlation and margin are not probabilities.
 
-Training used 37 real V1 screenshots and 180 synthetic screenshots. V2 pixels
-were excluded from training and synthesis. Identical ten-Agent roster groups
-stayed together; V1 roster groups were excluded from the independent test.
+Training used 37 real screenshots and 180 synthetic screenshots. Development
+and test pixels were excluded from training and synthesis. Identical ten-Agent
+roster groups stayed together; training-source roster groups were excluded from
+the independent test.
 Development data selected the model and thresholds before testing.
 
 Independent test: 70 screenshots, 700 portraits, 695 correct names and boxes at
