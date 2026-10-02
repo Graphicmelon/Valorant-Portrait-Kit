@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=78"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "valorant-portrait-kit"
+version = "0.1.0"
+description = "Valorant scoreboard annotation with YOLO26n localization and fixed portrait templates"
+requires-python = ">=3.12"
+license = "AGPL-3.0-only"
+dependencies = ["numpy==2.5.2", "opencv-python==5.0.0.93", "onnxruntime==1.30.0", "Pillow==12.3.0"]
+
+[project.optional-dependencies]
+train = ["ultralytics==8.4.171", "onnx==1.23.1", "onnxslim==0.1.97", "PyYAML==6.0.3", "psutil==7.2.2"]
+
+[project.scripts]
+valorant-portrait = "valorant_portrait_kit.pipeline:main"
+
+[project.urls]
+Repository = "https://github.com/Graphicmelon/valorant-portrait-kit"
+
+[tool.setuptools.packages.find]
+where = ["src"]

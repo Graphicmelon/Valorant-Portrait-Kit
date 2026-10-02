@@ -1,0 +1,475 @@
+{
+  "dev": {
+    "split": "dev",
+    "thresholds": {
+      "detector": 0.35,
+      "correlation": 0.65,
+      "margin": 0.12
+    },
+    "images": 71,
+    "truth_boxes": 710,
+    "proposals_localized": 710,
+    "predictions": 710,
+    "localized": 710,
+    "correct_name_and_box": 710,
+    "recall": 1.0,
+    "precision": 1.0,
+    "all_10_correct_images": 71,
+    "gold_crop_correct": 710,
+    "class_counts": {
+      "Cypher": 65,
+      "Waylay": 64,
+      "Omen": 114,
+      "Skye": 56,
+      "Jett": 72,
+      "Phoenix": 26,
+      "Neon": 52,
+      "Sova": 56,
+      "Viper": 52,
+      "Raze": 25,
+      "Chamber": 14,
+      "Astra": 16,
+      "Sage": 8,
+      "Breach": 3,
+      "Fade": 31,
+      "Yoru": 13,
+      "Deadlock": 2,
+      "Veto": 1,
+      "Vyse": 20,
+      "KAYO": 4,
+      "Killjoy": 3,
+      "Harbor": 12,
+      "Brimstone": 1
+    },
+    "per_class": {
+      "Astra": {
+        "truth": 16,
+        "predicted": 16,
+        "correct_iou50": 16,
+        "correct_iou75": 16
+      },
+      "Breach": {
+        "truth": 3,
+        "predicted": 3,
+        "correct_iou50": 3,
+        "correct_iou75": 3
+      },
+      "Brimstone": {
+        "truth": 1,
+        "predicted": 1,
+        "correct_iou50": 1,
+        "correct_iou75": 1
+      },
+      "Chamber": {
+        "truth": 14,
+        "predicted": 14,
+        "correct_iou50": 14,
+        "correct_iou75": 14
+      },
+      "Clove": {
+        "truth": 0,
+        "predicted": 0,
+        "correct_iou50": 0,
+        "correct_iou75": 0
+      },
+      "Cypher": {
+        "truth": 65,
+        "predicted": 65,
+        "correct_iou50": 65,
+        "correct_iou75": 65
+      },
+      "Deadlock": {
+        "truth": 2,
+        "predicted": 2,
+        "correct_iou50": 2,
+        "correct_iou75": 2
+      },
+      "Fade": {
+        "truth": 31,
+        "predicted": 31,
+        "correct_iou50": 31,
+        "correct_iou75": 31
+      },
+      "Gekko": {
+        "truth": 0,
+        "predicted": 0,
+        "correct_iou50": 0,
+        "correct_iou75": 0
+      },
+      "Harbor": {
+        "truth": 12,
+        "predicted": 12,
+        "correct_iou50": 12,
+        "correct_iou75": 12
+      },
+      "Iso": {
+        "truth": 0,
+        "predicted": 0,
+        "correct_iou50": 0,
+        "correct_iou75": 0
+      },
+      "Jett": {
+        "truth": 72,
+        "predicted": 72,
+        "correct_iou50": 72,
+        "correct_iou75": 72
+      },
+      "KAYO": {
+        "truth": 4,
+        "predicted": 4,
+        "correct_iou50": 4,
+        "correct_iou75": 4
+      },
+      "Killjoy": {
+        "truth": 3,
+        "predicted": 3,
+        "correct_iou50": 3,
+        "correct_iou75": 3
+      },
+      "Miks": {
+        "truth": 0,
+        "predicted": 0,
+        "correct_iou50": 0,
+        "correct_iou75": 0
+      },
+      "Neon": {
+        "truth": 52,
+        "predicted": 52,
+        "correct_iou50": 52,
+        "correct_iou75": 52
+      },
+      "Omen": {
+        "truth": 114,
+        "predicted": 114,
+        "correct_iou50": 114,
+        "correct_iou75": 114
+      },
+      "Phoenix": {
+        "truth": 26,
+        "predicted": 26,
+        "correct_iou50": 26,
+        "correct_iou75": 26
+      },
+      "Raze": {
+        "truth": 25,
+        "predicted": 25,
+        "correct_iou50": 25,
+        "correct_iou75": 25
+      },
+      "Reyna": {
+        "truth": 0,
+        "predicted": 0,
+        "correct_iou50": 0,
+        "correct_iou75": 0
+      },
+      "Sage": {
+        "truth": 8,
+        "predicted": 8,
+        "correct_iou50": 8,
+        "correct_iou75": 8
+      },
+      "Skye": {
+        "truth": 56,
+        "predicted": 56,
+        "correct_iou50": 56,
+        "correct_iou75": 56
+      },
+      "Sova": {
+        "truth": 56,
+        "predicted": 56,
+        "correct_iou50": 56,
+        "correct_iou75": 56
+      },
+      "Tejo": {
+        "truth": 0,
+        "predicted": 0,
+        "correct_iou50": 0,
+        "correct_iou75": 0
+      },
+      "Veto": {
+        "truth": 1,
+        "predicted": 1,
+        "correct_iou50": 1,
+        "correct_iou75": 1
+      },
+      "Viper": {
+        "truth": 52,
+        "predicted": 52,
+        "correct_iou50": 52,
+        "correct_iou75": 52
+      },
+      "Vyse": {
+        "truth": 20,
+        "predicted": 20,
+        "correct_iou50": 20,
+        "correct_iou75": 20
+      },
+      "Waylay": {
+        "truth": 64,
+        "predicted": 64,
+        "correct_iou50": 64,
+        "correct_iou75": 64
+      },
+      "Yoru": {
+        "truth": 13,
+        "predicted": 13,
+        "correct_iou50": 13,
+        "correct_iou75": 13
+      }
+    },
+    "correct_iou75": 710,
+    "median_detector_ms": 57.94915000296896,
+    "median_classification_ms": 13.678900002560113,
+    "pipeline_config": {
+      "detector": "avatar_detector.onnx",
+      "detector_names": [
+        "avatar"
+      ],
+      "templates": "templates.npz",
+      "detector_confidence": 0.35,
+      "correlation_min": 0.65,
+      "margin_min": 0.12,
+      "refine_boxes": true,
+      "scoreboard_column_filter": true,
+      "refined_nms_iou": 0.45,
+      "align_scoreboard_boxes": true
+    }
+  },
+  "test": {
+    "split": "test",
+    "thresholds": {
+      "detector": 0.35,
+      "correlation": 0.65,
+      "margin": 0.12
+    },
+    "images": 70,
+    "truth_boxes": 700,
+    "proposals_localized": 696,
+    "predictions": 695,
+    "localized": 695,
+    "correct_name_and_box": 695,
+    "recall": 0.9928571428571429,
+    "precision": 1.0,
+    "all_10_correct_images": 66,
+    "gold_crop_correct": 700,
+    "class_counts": {
+      "Jett": 71,
+      "Cypher": 66,
+      "Omen": 102,
+      "Neon": 54,
+      "Sova": 59,
+      "Sage": 8,
+      "Viper": 48,
+      "Waylay": 46,
+      "Skye": 43,
+      "Raze": 25,
+      "Fade": 37,
+      "Yoru": 15,
+      "Chamber": 24,
+      "Phoenix": 31,
+      "Astra": 17,
+      "Vyse": 17,
+      "Harbor": 15,
+      "Veto": 2,
+      "Deadlock": 2,
+      "Iso": 1,
+      "Brimstone": 6,
+      "Breach": 4,
+      "KAYO": 3,
+      "Killjoy": 4
+    },
+    "per_class": {
+      "Astra": {
+        "truth": 17,
+        "predicted": 16,
+        "correct_iou50": 16,
+        "correct_iou75": 16
+      },
+      "Breach": {
+        "truth": 4,
+        "predicted": 4,
+        "correct_iou50": 4,
+        "correct_iou75": 4
+      },
+      "Brimstone": {
+        "truth": 6,
+        "predicted": 6,
+        "correct_iou50": 6,
+        "correct_iou75": 6
+      },
+      "Chamber": {
+        "truth": 24,
+        "predicted": 23,
+        "correct_iou50": 23,
+        "correct_iou75": 23
+      },
+      "Clove": {
+        "truth": 0,
+        "predicted": 0,
+        "correct_iou50": 0,
+        "correct_iou75": 0
+      },
+      "Cypher": {
+        "truth": 66,
+        "predicted": 65,
+        "correct_iou50": 65,
+        "correct_iou75": 65
+      },
+      "Deadlock": {
+        "truth": 2,
+        "predicted": 2,
+        "correct_iou50": 2,
+        "correct_iou75": 2
+      },
+      "Fade": {
+        "truth": 37,
+        "predicted": 37,
+        "correct_iou50": 37,
+        "correct_iou75": 37
+      },
+      "Gekko": {
+        "truth": 0,
+        "predicted": 0,
+        "correct_iou50": 0,
+        "correct_iou75": 0
+      },
+      "Harbor": {
+        "truth": 15,
+        "predicted": 15,
+        "correct_iou50": 15,
+        "correct_iou75": 15
+      },
+      "Iso": {
+        "truth": 1,
+        "predicted": 1,
+        "correct_iou50": 1,
+        "correct_iou75": 1
+      },
+      "Jett": {
+        "truth": 71,
+        "predicted": 70,
+        "correct_iou50": 70,
+        "correct_iou75": 70
+      },
+      "KAYO": {
+        "truth": 3,
+        "predicted": 3,
+        "correct_iou50": 3,
+        "correct_iou75": 3
+      },
+      "Killjoy": {
+        "truth": 4,
+        "predicted": 4,
+        "correct_iou50": 4,
+        "correct_iou75": 4
+      },
+      "Miks": {
+        "truth": 0,
+        "predicted": 0,
+        "correct_iou50": 0,
+        "correct_iou75": 0
+      },
+      "Neon": {
+        "truth": 54,
+        "predicted": 54,
+        "correct_iou50": 54,
+        "correct_iou75": 54
+      },
+      "Omen": {
+        "truth": 102,
+        "predicted": 102,
+        "correct_iou50": 102,
+        "correct_iou75": 102
+      },
+      "Phoenix": {
+        "truth": 31,
+        "predicted": 31,
+        "correct_iou50": 31,
+        "correct_iou75": 31
+      },
+      "Raze": {
+        "truth": 25,
+        "predicted": 25,
+        "correct_iou50": 25,
+        "correct_iou75": 25
+      },
+      "Reyna": {
+        "truth": 0,
+        "predicted": 0,
+        "correct_iou50": 0,
+        "correct_iou75": 0
+      },
+      "Sage": {
+        "truth": 8,
+        "predicted": 8,
+        "correct_iou50": 8,
+        "correct_iou75": 8
+      },
+      "Skye": {
+        "truth": 43,
+        "predicted": 43,
+        "correct_iou50": 43,
+        "correct_iou75": 43
+      },
+      "Sova": {
+        "truth": 59,
+        "predicted": 58,
+        "correct_iou50": 58,
+        "correct_iou75": 58
+      },
+      "Tejo": {
+        "truth": 0,
+        "predicted": 0,
+        "correct_iou50": 0,
+        "correct_iou75": 0
+      },
+      "Veto": {
+        "truth": 2,
+        "predicted": 2,
+        "correct_iou50": 2,
+        "correct_iou75": 2
+      },
+      "Viper": {
+        "truth": 48,
+        "predicted": 48,
+        "correct_iou50": 48,
+        "correct_iou75": 48
+      },
+      "Vyse": {
+        "truth": 17,
+        "predicted": 17,
+        "correct_iou50": 17,
+        "correct_iou75": 17
+      },
+      "Waylay": {
+        "truth": 46,
+        "predicted": 46,
+        "correct_iou50": 46,
+        "correct_iou75": 46
+      },
+      "Yoru": {
+        "truth": 15,
+        "predicted": 15,
+        "correct_iou50": 15,
+        "correct_iou75": 15
+      }
+    },
+    "correct_iou75": 695,
+    "median_detector_ms": 57.88009999378119,
+    "median_classification_ms": 3.5149000032106414,
+    "pipeline_config": {
+      "detector": "avatar_detector.onnx",
+      "detector_names": [
+        "avatar"
+      ],
+      "templates": "templates.npz",
+      "detector_confidence": 0.35,
+      "correlation_min": 0.65,
+      "margin_min": 0.12,
+      "refine_boxes": true,
+      "scoreboard_column_filter": true,
+      "refined_nms_iou": 0.45,
+      "align_scoreboard_boxes": true
+    }
+  }
+}

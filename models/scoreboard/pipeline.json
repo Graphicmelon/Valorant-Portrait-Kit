@@ -1,0 +1,14 @@
+{
+  "detector": "avatar_detector.onnx",
+  "detector_names": [
+    "avatar"
+  ],
+  "templates": "templates.npz",
+  "detector_confidence": 0.35,
+  "correlation_min": 0.65,
+  "margin_min": 0.12,
+  "refine_boxes": true,
+  "scoreboard_column_filter": true,
+  "refined_nms_iou": 0.45,
+  "align_scoreboard_boxes": true
+}
